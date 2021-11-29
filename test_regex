@@ -1,0 +1,8 @@
+255.255.255.0
+192.168.2.1
+127.0.0.1
+255.245.99.1
+options resume=UUID=4390b0be-6745-4191-9529-7a00de7b2b0e
+options pcie_port_pm=off
+options resume=UUID=4390b0be-6745-4191-9529-7a00de7b2b0e
+options pcie_port_pm=off

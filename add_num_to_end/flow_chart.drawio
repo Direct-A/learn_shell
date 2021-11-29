@@ -1,0 +1,73 @@
+<mxfile>
+    <diagram id="xaXDTMvrWESkMucKEHS0" name="Page-1">
+        <mxGraphModel dx="2737" dy="1113" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=23;strokeWidth=4;fontFamily=ubuntumono nerd font;fontStyle=1" edge="1" parent="1" source="2" target="9">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="input file" style="rounded=0;whiteSpace=wrap;html=1;fontSize=23;fontFamily=ubuntumono nerd font;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="305" y="40" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=4;fontSize=23;fontFamily=ubuntumono nerd font;fontStyle=1" edge="1" parent="1" source="9" target="15">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="&lt;div style=&quot;color: rgb(173, 186, 199); background-color: rgb(34, 39, 46); line-height: 24px; font-size: 23px;&quot;&gt;&lt;font face=&quot;ubuntumono nerd font&quot; style=&quot;font-size: 23px;&quot;&gt;&lt;span style=&quot;color: rgb(244, 112, 103); font-size: 23px;&quot;&gt;for&lt;/span&gt; string &lt;span style=&quot;color: rgb(244, 112, 103); font-size: 23px;&quot;&gt;in&lt;/span&gt; &lt;span style=&quot;color: rgb(150, 208, 255); font-size: 23px;&quot;&gt;`cat &lt;/span&gt;${file}&lt;span style=&quot;color: rgb(150, 208, 255); font-size: 23px;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: rgb(244, 112, 103); font-size: 23px;&quot;&gt;|&lt;/span&gt;&lt;span style=&quot;color: rgb(150, 208, 255); font-size: 23px;&quot;&gt; xargs -d &quot;\t&quot;`&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;fontSize=23;fontFamily=ubuntumono nerd font;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="80" y="200" width="570" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=23;strokeWidth=4;fontFamily=ubuntumono nerd font;fontStyle=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="15" target="51">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="365" y="488" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="19" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=30;fontFamily=ubuntumono nerd font;fontStyle=1" vertex="1" connectable="0" parent="18">
+                    <mxGeometry x="-0.3227" y="-3" relative="1" as="geometry">
+                        <mxPoint x="3" y="0.6700000000000017" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=23;strokeWidth=4;fontFamily=ubuntumono nerd font;fontStyle=1" edge="1" parent="1" source="15" target="31">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=30;fontFamily=ubuntumono nerd font;fontStyle=1" vertex="1" connectable="0" parent="32">
+                    <mxGeometry x="-0.4406" relative="1" as="geometry">
+                        <mxPoint x="-1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="15" value="if string in DICT" style="rhombus;whiteSpace=wrap;html=1;rounded=0;fontSize=23;fontFamily=ubuntumono nerd font;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="190" y="340" width="350" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=23;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=4;fontFamily=ubuntumono nerd font;fontStyle=1" edge="1" parent="1" source="31" target="38">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="DICT[string] = 1" style="whiteSpace=wrap;html=1;rounded=0;fontSize=23;fontFamily=ubuntumono nerd font;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="610" y="488" width="220" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=23;strokeWidth=4;fontFamily=ubuntumono nerd font;fontStyle=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="38" target="9">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="10" y="830"/>
+                            <mxPoint x="10" y="240"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="38" value="&lt;div style=&quot;color: rgb(173, 186, 199); background-color: rgb(34, 39, 46); font-family: &amp;quot;ubuntumono nerd font&amp;quot;, &amp;quot;courier new&amp;quot;, monospace, &amp;quot;droid sans mono&amp;quot;, monospace, monospace, &amp;quot;droid sans fallback&amp;quot;; line-height: 24px; font-size: 23px;&quot;&gt;ARRAY+=${string}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=23;fontFamily=ubuntumono nerd font;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="250" y="800" width="230" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=4;fontSize=30;" edge="1" parent="1" source="51" target="58">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="string = string_DICT[string]" style="whiteSpace=wrap;html=1;rounded=0;fontFamily=ubuntumono nerd font;fontSize=23;fontStyle=1;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="530" width="410" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=4;fontSize=30;" edge="1" parent="1" source="58" target="38">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" value="DICT[string] += 1" style="whiteSpace=wrap;html=1;rounded=0;fontSize=23;fontFamily=ubuntumono nerd font;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="230" y="670" width="270" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
